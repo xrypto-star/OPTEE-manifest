@@ -8,3 +8,14 @@ information that used to be here in this git can be found under [manifests].
 // OP-TEE core maintainers
 
 [manifests]: https://optee.readthedocs.io/en/latest/building/gits/build.html#manifests
+
+## Quick start for `default.xml`
+
+To fetch all projects declared in `default.xml` and start a build, run:
+
+```bash
+./fetch_and_build_default.sh
+```
+
+By default this uses `.worktrees/default` under this repository as workspace.
+You can pass another path as the first argument.
